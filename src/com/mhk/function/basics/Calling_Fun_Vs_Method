@@ -1,0 +1,9 @@
+val greetFunExpl : () => Unit = () => {println("Greet Function Explicit ")}
+def greetMethodExpl() : Unit = {println("Greet Method Explicit")}
+greetFunExpl 	//  This will not execute the function,it will print method signature
+greetFunExpl() 	//  This will execute the Function
+greetMethodExpl  	// This will execute the method
+greetMethodExpl() 	// This will execute the method
+
+val greetFunImpl = () => {println("Greet Function Implicit")}
+def greetMehtodImpl() = {println("Greet Method Implicit")}
